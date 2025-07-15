@@ -12,11 +12,11 @@ public class SwaggerConfig {
     public OpenAPI customOpenAPI() {
         return new OpenAPI()
                 .info(new Info()
-                        .title("Testing User And Customer API")
-                        .version("1.0")
+                        .title("Test Technic Customer API")
+                        .version("1.0.2")
                         .description("A API allow CRUD operations user for get data user and customers")
                         .contact(new Contact()
                                 .name("Donatelo")
-                                .email("donatelo@gmail.com")));
+                                .email("nathanaptanta@gmail.com")));
     }
 }
